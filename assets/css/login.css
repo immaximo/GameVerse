@@ -81,7 +81,7 @@ h1{
 
 .toggle h1, p{
   font-size: 2.5rem;
-  color: #D9DCD6;
+  color: black;
 }
 
 .container .input-box {
@@ -282,7 +282,7 @@ h1{
 }
 
 #signup, #login{
-  color: #D9DCD6;
+  color: black;
 }
 
 
