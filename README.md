@@ -5,7 +5,9 @@ GameVerse is a gaming discovery platform that provides users with a curated sele
 Jake Maxim O. Elopre  
 CS-3102 | IT 321 - Human-Computer Interaction  
 
+![GameVerse Home](/images/home.png) 
 ![GameVerse Main](/images/main.png) 
+![GameVerse About](/images/about.png) 
 
 ## Features  
 - **Game Discovery**: Explore new and popular games across different genres.  
