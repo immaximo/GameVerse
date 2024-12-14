@@ -125,11 +125,7 @@ nav {
     transform: translateY(-2px);
 }
 
-.learn-more {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+
 
 .game-images {
     position: relative;
@@ -177,24 +173,7 @@ nav {
     right: 50px;
 }
 
-.gamer-card {
-    position: absolute;
-    background: white;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    top: 50px;
-    left: 50px;
-}
 
-.gamer-avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
 
 .gamer-info h4 {
     font-size: 16px;
