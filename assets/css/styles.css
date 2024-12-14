@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 html, body {
@@ -38,7 +39,7 @@ nav {
 
 .brand-name {
     margin-left: 10px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #333;
 }
@@ -99,7 +100,7 @@ nav {
 
 h1 {
     color: #1a237e;
-    font-size: 48px;
+    font-size: 52px;
     margin-bottom: 15px;
 }
 
@@ -165,7 +166,7 @@ h1 {
 
 .game-category {
     color: #999;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
