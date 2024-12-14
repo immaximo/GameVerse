@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <title>About GameVerse</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <a id="brand-title">
+                <img src="assets/icons/controller.png" alt="Logo" class="logo">
+                <span class="brand-name">GameVerse</span>
+            </a>
+        </div>        
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/index" class="active">Games</a>
+            <a href="/about" class="About">About</a>
+        </div>
+        <div class="profile-container dropdown">
+            <img src="assets/icons/user.png" alt="Profile" class="profile-icon" id="profile-icon">
+            <div class="dropdown-content">
+                <a href="/">Logout</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <header>
+        <h1>About GameVerse</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Our Goals</h2>
+            <p>GameVerse is a platform dedicated to providing a seamless experience for gamers. We strive to bring together people of all ages and backgrounds to enjoy gaming, enhance skills, and explore new worlds.</p>
+            <ul>
+                <li>Offer a curated collection of games for all types of players.</li>
+                <li>Provide cross-platform support to play anywhere, anytime.</li>
+                <li>Foster a global community of players who share tips, tricks, and experiences.</li>
+                <li>Introduce competitive gaming tournaments and challenges.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Our Features</h2>
+            <ul>
+                <li>Wide variety of games across all genres.</li>
+                <li>Cross-platform support for PC, consoles, and mobile devices.</li>
+                <li>Community-driven features including game reviews and ratings.</li>
+                <li>Advanced game search filters for personalized game recommendations.</li>
+                <li>Seamless game updates and notifications on new releases.</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-content">
+            <p>Jake Maxim O. Elopre</p>
+            <p>22-04706@g.batstate-u.edu.ph</p>
+            <p>CS-3102</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('brand-title').addEventListener('click', function(event) {
+            event.preventDefault(); 
+            window.location.href = '/index'; 
+        });
+    </script>
+</body>
+</html>

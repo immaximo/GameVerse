@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:#28303f;;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    height: 50px;
+}
+.brand-name {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a.active {
+    color: white;
+    font-weight: bold;
+}
+
+.profile-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.game-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.game-content {
+    flex: 1;
+    max-width: 600px;
+    margin-left: 150px;
+}
+
+.greeting {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.game-title {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #00C6FF, #0072FF);
+    border-radius: 2px;
+}
+
+.game-description {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.get-started {
+    background: linear-gradient(90deg, #00C6FF, #0072FF);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.get-started:hover {
+    transform: translateY(-2px);
+}
+
+.learn-more {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.game-images {
+    position: relative;
+    height: 320px;
+}
+
+.image-grid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.game-image {
+    
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transform: scale(0.9); 
+    transition: transform 0.3s ease; 
+}
+
+.game-image:hover {
+    transform: scale(1);
+}
+
+
+.image-1 {
+    width: 300px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+
+.image-2 {
+    width: 300px;
+    height: 200px;
+    top: 150px;
+    right: 250px;
+}
+
+.image-3 {
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    right: 50px;
+}
+
+.gamer-card {
+    position: absolute;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    top: 50px;
+    left: 50px;
+}
+
+.gamer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.gamer-info h4 {
+    font-size: 16px;
+    color: #333;
+}
+
+.gamer-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.new-badge {
+    position: absolute;
+    background: #00C6FF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    top: 20px;
+}
+
+@media (max-width: 1024px) {
+    .game-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .game-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .button-group {
+        justify-content: center;
+    }
+
+    .game-images {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .gamer-card {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .game-images {
+        height: 300px;
+        width: 300px;
+    }
+
+    .image-1, .image-2, .image-3 {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        right: 0;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    .gamer-card {
+        display: none;
+    }
+}
+
+
+@media (hover: hover) {
+    .get-started:hover {
+        transform: translateY(-2px);
+    }
+
+    .game-image:hover {
+        transform: scale(1);
+    }
+
+    .nav-links a:hover {
+        opacity: 0.8;
+    }
+}
