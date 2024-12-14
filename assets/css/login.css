@@ -79,8 +79,13 @@ h1{
   margin: 20px 0;
 }
 
-.toggle h1, p{
+.toggle h1{
   font-size: 2.5rem;
+  color: black;
+}
+
+.toggle p{
+  font-size: 1rem;
   color: black;
 }
 

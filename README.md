@@ -6,6 +6,8 @@ Jake Maxim O. Elopre
 CS-3102 | IT 321 - Human-Computer Interaction  
 
 ![GameVerse Home](/images/home.png) 
+![GameVerse Login](/images/login.png) 
+![GameVerse Signup](/images/signup.png) 
 ![GameVerse Main](/images/main.png) 
 ![GameVerse About](/images/about.png) 
 
